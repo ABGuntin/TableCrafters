@@ -18,7 +18,7 @@ public class UserLogged extends AppCompatActivity {
 
         final Button button = findViewById(R.id.logout_button);
         button.setOnClickListener(v -> {
-            // Code here executes on main thread after user presses button
+            // Code here executes on main thread after Login presses button
             //imprimirUserPass();
             Toast.makeText(this, "USUARIO DESCONECTADO DE LA APP", Toast.LENGTH_SHORT).show();
             Intent i = new Intent(this, LoginScreen.class);
