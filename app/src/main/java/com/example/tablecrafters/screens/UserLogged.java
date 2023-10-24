@@ -24,4 +24,4 @@ public class UserLogged extends AppCompatActivity {
             Intent i = new Intent(this, LoginScreen.class);
             startActivity(i);
         });
-}};
+}}
